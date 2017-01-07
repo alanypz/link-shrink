@@ -1,0 +1,558 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"F",
+				"FOREIGN"
+			],
+			[
+				"map",
+				"map_filter"
+			],
+			[
+				"add",
+				"add_list_map"
+			],
+			[
+				"uniq",
+				"unique_check"
+			],
+			[
+				"uni",
+				"unique_check"
+			],
+			[
+				"blo",
+				"block_start"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/Haskell.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Clean"
+			],
+			[
+				"packac",
+				"Package Control: List Packages"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Brack\t",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 335.0,
+		"history":
+		[
+			"average3",
+			"average",
+			"clear",
+			"cleasr",
+			"average3 [1,2,3,4]",
+			"ghci",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alan/dev/djp"
+	],
+	"file_history":
+	[
+		"/Users/alan/dev/djp/pip-selfcheck.json",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/CAP4453_Robot_Vision/Assignments/Assignment_1/originals/sobel.c",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/CAP4453_Robot_Vision/Assignments/Assignment_1/originals/marrh.c",
+		"/Users/alan/Downloads/Makefile",
+		"/Users/alan/Desktop/driver/README.txt",
+		"/Users/alan/Desktop/driver/Makefile",
+		"/Users/alan/Desktop/driver/test_read_write.c",
+		"/Users/alan/Desktop/driver/read_write.c",
+		"/Users/alan/Desktop/swatch.py",
+		"/Users/alan/Desktop/mvc_toy.py",
+		"/Users/alan/Desktop/shapes.py",
+		"/Users/alan/Desktop/inssort.py",
+		"/Users/alan/Desktop/build_string.py",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Notes/Exam2_Info.txt",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Notes/Exam1_Info.txt",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Assignments/Assignment_3/Assignment3_Question.txt",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Assignments/Assignment_2/Final/processes.out",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Assignments/Assignment_2/Final/processes.in",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Assignments/Assignment_2/Final/Schedule.java",
+		"/Users/alan/Documents/NetBeansProjects/schedule/dist/test/processes.out",
+		"/Users/alan/Documents/NetBeansProjects/schedule/dist/processes.in",
+		"/Users/alan/Documents/NetBeansProjects/schedule/dist/processes.out",
+		"/Users/alan/Documents/NetBeansProjects/schedule/dist/README.TXT",
+		"/Users/alan/Documents/NetBeansProjects/schedule/src/Schedule.java",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Notes/Sept26_Notes copy.txt",
+		"/Users/alan/Documents/NetBeansProjects/schedule/src/processes.in",
+		"/Users/alan/Documents/NetBeansProjects/CarQuery/dist/README.TXT",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016/Operating_Systems/Notes/Sept26_Notes.txt",
+		"/Users/alan/Downloads/Operating_System_Security.ris",
+		"/Users/alan/Downloads/Operating_System_Security.bibtex",
+		"/Users/alan/Downloads/Operating_System_Security.enw",
+		"/Users/alan/Box Sync/Documents/School/Fall_2016_2/Assignment_1.txt",
+		"/Users/alan/Downloads/PokemonGoMap-OSX/version",
+		"/Users/alan/Documents/Other/coordinates.txt",
+		"/Users/alan/Documents/Other/SMURFS",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_27_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Final Exam/Final_Exam_Yepez_Alan.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_28_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_26_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_25_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_24_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_23_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Final Exam Assignment/Final_Exam_Memo.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Final Exam/Final_Exam_Memo.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 5/Chapter_18_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 5/Chapter_19_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 5/Chapter_20_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 5/Chapter_21_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 5/Chapter_22_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 6/Chapter_20_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 5/Chapter_13_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 4/Chapter_17_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 4/Chapter_16_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 4/Chapter_15_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 4/Chapter_14_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 4/Chapter_13_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 3/Chapter_12_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 3/Chapter_11_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 3/Chapter_10_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 3/Chapter_9_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 2/Chapter_8_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 2/Chapter_7_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 2/Chapter_6_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 2/Chapter_5_Posts.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 1/Chapter_1_Discussions.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 1/Chapter_4_Discussions.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 1/Chapter_3_Discussions.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Module 1/Chapter_2_Discussions.txt",
+		"/Users/alan/Box Sync/Documents/School/Summer_2016/ENC3241_Technical_Writing/Introduction Module/TellUsAboutYourself.txt",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/webtut/customers.html",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/webtut/script.js",
+		"/Users/alan/Documents/nodejs/main.js",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/CAP4453_Robot_Vision/Assignments/Report/Initial Presentation/CAP4453_Research_Topic_Initial_Presentation_Rubric.txt",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/Project/connecting_to_server",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4935_Senior_Design_II/environments/Database Environment",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4935_Senior_Design_II/environments/Server Environment",
+		"/Users/alan/.Trash/session.php",
+		"/Users/alan/.Trash/index.html",
+		"/Users/alan/Desktop/index.html",
+		"/Users/alan/Desktop/css/style.css",
+		"/Users/alan/Desktop/session.php",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/cop4710/session.php",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/config/auth.js",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/server.js",
+		"/Users/alan/PhpstormProjects/cop4710/cop-4710-project/index.html",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/webtut/site.css",
+		"/Users/alan/PhpstormProjects/cop4710/cop-4710-project/php/database/DatabaseRepository.php",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/cop4710/index.php",
+		"/Users/alan/PhpstormProjects/cop4710/cop-4710-project/css/style.css",
+		"/Users/alan/Box Sync/Documents/Server/old/Terminal Saved Output",
+		"/Users/alan/Box Sync/Documents/Server/out.txt",
+		"/Users/alan/.ssh/known_hosts",
+		"/Users/alan/Downloads/tool.svg",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/iOS/CityOfOrlandoControl/CityOfOrlandoControl/Info.plist",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/iOS/CityOfOrlandoControl/CityOfOrlandoControlTests/Info.plist",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/iOS/CityOfOrlandoControl/CityOfOrlandoControlUITests/Info.plist",
+		"/Users/alan/Desktop/CityOfOrlandoControl/CityOfOrlandoControl/LoginViewController.swift",
+		"/Users/alan/TERM_PROGRAM=Apple_Terminal",
+		"/Users/alan/Desktop/server_notes.txt",
+		"/Users/alan/Transmission/The Hunger Games Mockingjay Part 2 2015 720p BrRip x264 - DIMENSION/ReadMe.txt",
+		"/Users/alan/Box Sync/Documents/Server/node-rest-auth/server.js",
+		"/Users/alan/Box Sync/Documents/Server/node-rest-auth/app/models/user.js",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/Assignments/Homework_2/homework2.sql",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4710_Database_Systems/Assignments/Homework_3/HW3_Yepez.txt",
+		"/Users/alan/Desktop/users.js",
+		"/Users/alan/Box Sync/Documents/Server/node-rest-auth/config/database.js",
+		"/Users/alan/Downloads/node-rest-auth/app/models/user.js",
+		"/Users/alan/Box Sync/Documents/School/Spring_2016/COP4935_Senior_Design_II/CS_CDR_Planning.txt",
+		"/Users/alan/Desktop/Terminal Saved Output Datbase",
+		"/Users/alan/Box Sync/Documents/Server/node-rest-auth/package.json",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/package.json",
+		"/Users/alan/Desktop/homework2.txt",
+		"/Users/alan/Desktop/Terminal Saved Output",
+		"/Users/alan/Desktop/Terminal Saved Output Server",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/utils/queue.js",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/config/passport.js",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/config/database.js",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/api/app/models/user.js",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/rest/node_modules/basic-auth/package.json",
+		"/Users/alan/Documents/BitBucket/city-of-orlando/README.txt",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/AverageTailRecursive.hs",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/HW2.txt",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/Testing.lhs",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/Zip3unzip3Tests.hs",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/Zip3unzip3.hs",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/TreeTests.hs",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/Tree.hs",
+		"/Users/alan/Box Sync/Documents/School/Fall_2015/COP4020_Programming_Languages/course_git/cop-4020/homeworks/HW2/FoldsTests.hs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"greenback",
+			"}",
+			"{",
+			"adop",
+			"through",
+			"raise",
+			"over",
+			"reass",
+			"over",
+			"favor",
+			"favir",
+			"requir",
+			"necess",
+			"Some",
+			"definit",
+			"often",
+			"consid",
+			"budg",
+			"price",
+			"cost",
+			"work",
+			"exch",
+			"accomo",
+			"custom",
+			"web p",
+			"text",
+			"Alth",
+			"presenter",
+			"present",
+			"arti",
+			"text",
+			"suppose",
+			"person",
+			"book",
+			"text",
+			"expect",
+			"dis",
+			"reas",
+			"esp",
+			"alth",
+			"misin",
+			"consid",
+			"speci",
+			"part",
+			"generall",
+			"feature",
+			"unders",
+			"effort",
+			"consid",
+			"impro",
+			"spark",
+			"hig",
+			"may",
+			"exp",
+			"normal",
+			"emph",
+			"empha",
+			"solid",
+			"POST",
+			"slight",
+			"strat",
+			"very",
+			"cememn",
+			"parti",
+			"dispo",
+			"perc",
+			"appre",
+			"voice",
+			"formal",
+			"style",
+			"consider",
+			"tion",
+			"There are",
+			"It is",
+			"pref",
+			"preff",
+			"favor",
+			"Consi",
+			"believe",
+			"optio",
+			"parti",
+			"partic",
+			"consid",
+			"consi",
+			"Althou",
+			"emp",
+			"emphas",
+			"emphasis",
+			"emph",
+			"impl",
+			"belie",
+			"Althou",
+			"book",
+			"Howev",
+			"parti",
+			"inten",
+			"scena",
+			"case",
+			"example",
+			":",
+			"intent",
+			"al",
+			"allow",
+			"reli",
+			"parti",
+			"exam",
+			"impl",
+			"prop",
+			"weigh",
+			"part",
+			"main",
+			"import",
+			"consider",
+			"consid",
+			"poten",
+			"previou",
+			"tailor",
+			"stand",
+			"tailor",
+			"reason",
+			"example",
+			"affe",
+			"prop",
+			"proper",
+			"purel",
+			"Even",
+			"Thoug",
+			"Howe"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"]",
+			"[",
+			"slope",
+			"Nil",
+			"",
+			"t",
+			"",
+			"authenicity",
+			"Atacks",
+			"t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 258.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 320.0
+	},
+	"pinned_build_system": "",
+	"project": "djp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Box Sync/Documents/School/Fall 2015/COP4020_Programming_Languages/Assignments/Homework_3/MatrixInstances.hs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
