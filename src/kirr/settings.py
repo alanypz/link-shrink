@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
 
     # Custom application
+    'analytics',
     'shortener', 
 
     # Third party
