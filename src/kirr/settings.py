@@ -25,7 +25,7 @@ SECRET_KEY = '74+s*2-ppsxnhi(bmd798wm0)0fk(%%h9l1+e3d5t!c2nb9i-t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['anyz.com', 'www.anyz.com']
 
 
 # Application definition
@@ -38,11 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+
     # Custom application
     'shortener', 
+
+    # Third party
+    'django_hosts',
 ]
 
 MIDDLEWARE = [
+    'django_hosts.middleware.HostsRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -50,14 +55,23 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'kirr.urls'
 
+ROOT_HOSTCONF = 'kirr.hosts'
+
+DEFAULT_HOST = 'www'
+
+DEFAULT_REDIRECT_URL = "http://www.anyz.com:8000"
+
+PARENT_HOST = "anyz.com:8000"
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,5 +136,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-SHORTCODE_MAX = 10
-SHORTCODE_MIN = 4
+SHORTCODE_MAX = 15
+SHORTCODE_MIN = 6
