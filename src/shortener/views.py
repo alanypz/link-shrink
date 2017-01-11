@@ -25,7 +25,7 @@ class HomeView(View):
 	def post(self, request, *args, **kwargs):
 		form = SubmitURLForm(request.POST)
 		context = {
-			'title': "Shorten a link",
+			'title': "link shrink",
 			'form': form
 		}
 		template = "shortener/home.html"
