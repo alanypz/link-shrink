@@ -46,11 +46,11 @@ class HomeView(View):
 
 
 class URLRedirectView(View):
-    def get(self, request, shortcode=None, *args, **kwargs):
-        qs = KirrURL.objects.filter(shortcode__iexact=shortcode)
-        if qs.count() != 1 and not qs.exists():
-            raise Http404
-        obj = qs.first()
-        print(ClickEvent.objects.create_event(obj))
-        return HttpResponseRedirect(obj.url)
+	def get(self, request, shortcode=None, *args, **kwargs):
+		qs = KirrURL.objects.filter(shortcode__iexact=shortcode)
+		if qs.count() != 1 and not qs.exists():
+			raise Http404
+		obj = qs.first()
+		print(ClickEvent.objects.create_event(obj))
+		return HttpResponseRedirect(obj.url)
 
