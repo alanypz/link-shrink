@@ -12,11 +12,12 @@ def home_view_fbv(request, *args, **kwargs):
 		print(request.POST)
 	return render(request, "shortener/home.html", {})
 
+
 class HomeView(View):
 	def get(self, request, *args, **kwargs):
 		the_form = SubmitURLForm()
 		context = {
-			'title': "Shorten a link",
+			'title': "link shrink",
 			'form': the_form
 		}
 		return render(request, "shortener/home.html", context)

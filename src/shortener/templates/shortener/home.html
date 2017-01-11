@@ -1,9 +1,31 @@
-<div style='width:800px; margin:0 auto;'>
-	<h1>{{ title }}</h1>
+{% extends "base.html" %}
 
-	<form method='POST' action='.'> {% csrf_token %}
-		<!-- <input name='url' type='text' placeholder="Shorten your URL"/>  -->
-		{{ form.as_p }}
-		<input type='submit' value='Shorten'>
-	</form>
-</div>
+{% block styles %}
+<style>
+	body { 
+		background-color: #f23a80;
+		background-image: url(https://images8.alphacoders.com/397/397989.jpg);
+		background-size: cover;
+	}
+	.btn-link {
+		color:#3deef6;
+		text-shadow: none;
+	}
+	.btn-link:hover {
+		color: #85b1d4;
+	}
+</style>
+{% endblock styles %}
+
+{% block content %}
+<h1 class='cover-heading'>{{ title }}</h1>
+	<p class='lead'>enter url to shorten</p>
+<p class='lead'>
+	<div class='col-sm-6 col-sm-offset-3'>
+		<form method='POST' action='.'> {% csrf_token %}
+			{{ form.as_p }}
+			<input class='btn btn-primary' type='submit' value='shrink'>
+		</form>
+	</div>
+</p>
+{% endblock content %}

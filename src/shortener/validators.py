@@ -4,26 +4,14 @@ from django.core.exceptions import ValidationError
 
 def validate_url(value):
 	url_validator = URLValidator()
-	value_1_invalid = False
-	value_2_invalid = False
-
+	valid_value = value
+	if "http" not in value:
+		valid_value = "http://" + value
 	try:
-		url_validator(value)
+		url_validator(valid_value)
 	except:
-		value_1_invalid = True
-
-	value_2 = "http://" + value
-
-	try:
-		url_validator(value_2)
-	except:
-		value_2 = True
-
-
-	if value_1_invalid and value_2_invalid:	
 		raise ValidationError("Invalid URL for this field")
 	return value
-
 
 
 def validate_dot_com(value):
