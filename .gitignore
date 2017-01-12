@@ -2,4 +2,5 @@
 bin/
 include/
 lib/
+anyz/settings-envs
 pip-selfcheck.json

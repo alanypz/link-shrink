@@ -4,7 +4,7 @@ from django.views import View
 
 from analytics.models import ClickEvent
 from .forms import SubmitURLForm
-from .models import KirrURL
+from .models import AnyzURL
 
 
 def home_view_fbv(request, *args, **kwargs):
@@ -32,7 +32,7 @@ class HomeView(View):
 		if form.is_valid():
 			print(form.cleaned_data.get("url"))
 			new_url = form.cleaned_data.get("url")
-			obj, created = KirrURL.objects.get_or_create(url=new_url)
+			obj, created = AnyzURL.objects.get_or_create(url=new_url)
 			context = {
 				"object": obj,
 				"created": created
@@ -47,7 +47,7 @@ class HomeView(View):
 
 class URLRedirectView(View):
 	def get(self, request, shortcode=None, *args, **kwargs):
-		qs = KirrURL.objects.filter(shortcode__iexact=shortcode)
+		qs = AnyzURL.objects.filter(shortcode__iexact=shortcode)
 		if qs.count() != 1 and not qs.exists():
 			raise Http404
 		obj = qs.first()

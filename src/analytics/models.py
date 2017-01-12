@@ -1,18 +1,18 @@
 from django.db import models
-from shortener.models import KirrURL
+from shortener.models import AnyzURL
 
 
 class ClickEventManager(models.Manager):
 	def create_event(self, instance):
-		if isinstance(instance, KirrURL):
-			obj, created = self.get_or_create(kirr_url=instance)
+		if isinstance(instance, AnyzURL):
+			obj, created = self.get_or_create(anyz_url=instance)
 			obj.count += 1
 			obj.save()
 			return obj.count
 		return None
 
 class ClickEvent(models.Model):
-	kirr_url 	= models.OneToOneField(KirrURL)
+	anyz_url 	= models.OneToOneField(AnyzURL)
 	count 		= models.IntegerField(default=0)
 	updated 	= models.DateTimeField(auto_now=True)
 	timestamp	= models.DateTimeField(auto_now_add=True)
