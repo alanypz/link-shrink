@@ -2,7 +2,7 @@
 
 Written using Python 3.6 and Django 1.10.2.
 
-[anyz.me](www.anyz.me)
+[anyz.me](http://www.anyz.me)
 
 ## Testing Locally
 
