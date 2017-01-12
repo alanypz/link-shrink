@@ -1,6 +1,6 @@
 .DS_Store
 .Python
-src/anyz/settings/local.py
+anyz/settings/local.py
 bin/
 include/
 lib/
