@@ -65,9 +65,9 @@ ROOT_HOSTCONF = 'anyz.hosts'
 
 DEFAULT_HOST = 'www'
 
-DEFAULT_REDIRECT_URL = "http://www.anyz.com:8000"
+DEFAULT_REDIRECT_URL = "http://www.anyz.com:5000"
 
-PARENT_HOST = "anyz.com:8000"
+PARENT_HOST = "anyz.com:5000"
 
 TEMPLATES = [
     {
