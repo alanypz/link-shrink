@@ -9,7 +9,7 @@ class SubmitURLForm(forms.Form):
 			validators=[validate_url],
 			widget = forms.TextInput(
 					attrs ={
-						"placeholder": "Long URL",
+						"placeholder": " ",
 						"class": "form-control"
 						}
 				)

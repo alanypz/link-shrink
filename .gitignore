@@ -1,6 +1,5 @@
 .DS_Store
 .Python
-src/anyz/settings/production.py
 bin/
 include/
 lib/

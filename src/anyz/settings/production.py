@@ -25,7 +25,7 @@ SECRET_KEY = '74+s*2-ppsxnhi(bmd798wm0)0fk(%%h9l1+e3d5t!c2nb9i-t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['anyz.me', 'www.anyz.me']
+ALLOWED_HOSTS = ['anyz.me', 'www.anyz.me', 'anyz.herokuapp.com']
 
 
 # Application definition
@@ -97,6 +97,11 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# Update database configuration with $DATABASE_URL.
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
