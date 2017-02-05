@@ -1,14 +1,12 @@
 {% extends "base.html" %}
 
 {% block title %}
-{{ object.shortcode }}
+{{ object.shortcode }} | {{ block.super }}
 {% endblock title %}
 
 {% block content %}
-<div class=''>
-	<h1>Link created!</h1>
-	<p>{{ object.url }}</p>
-	<p><a class='btn btn-link' href='{{ object.get_short_url }}'>{{ object.get_short_url }}</a></p>
-	<a class='btn btn-default' href='/'>&laquo shrink another</a>
-</div>
+<h1>link shrunk</h1>
+<p>{{ object.url }}</p>
+<p class="p-link"><a class="anyz-link" href="{{ object.get_short_url }}">{{ object.get_short_url }}</a></p>
+<p class="p-btn"><a class='btn-default' href='/'>&laquo shrink another</a></p>
 {% endblock content %}	

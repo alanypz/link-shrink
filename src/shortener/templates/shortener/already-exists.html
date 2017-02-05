@@ -5,13 +5,11 @@
 {% endblock title %}
 
 {% block content %}
-<div class=''>
-	<h1>Link already exists!</h1>
-	<p>{{ object.url }}</p>
-	{% if object.clickevent %}
-		<p> Clicks: {{ object.clickevent.count }} </p>
- 	{% endif %}
-	<p><a class='btn btn-link' href='{{ object.get_short_url }}'>{{ object.get_short_url }}</a></p>
-	<a class='btn btn-default' href='/'>&laquo shrink another</a>
-</div>
+<h1>link shrunk</h1>
+<p>{{ object.url }}</p>
+<p class="p-link"><a class="anyz-link" href="{{ object.get_short_url }}">{{ object.get_short_url }}</a></p>
+{% if object.clickevent %}
+	<p class="p-count"> Click count: {{ object.clickevent.count }} </p>
+{% endif %}
+<p class="p-btn"><a class='btn-default' href='/'>&laquo shrink another</a></p>
 {% endblock content %}	
